@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    position: fixed;  /* Fixa a barra no topo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    z-index: 1000;  /* Garante que a barra fique sobre outros conteúdos */
+}
+
+.content {
+    padding-top: 60px;  /* Altura da barra de navegação */
+}
+
+h1 {
+    margin-top: 20px;
+}
+/* Container que envolve os itens */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    gap: 20px; /* Espaço entre as imagens */
+}
+
+/* Estilo de cada item (imagem + texto) */
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 150px; /* Tamanho fixo das imagens */
+    height: 150px;
+    object-fit: cover; /* Faz a imagem cobrir a área sem distorcer */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
