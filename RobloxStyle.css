@@ -7,6 +7,10 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f4f4f4;
+    background-image: url('https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/4X/7/f/3/7f3ab11ae38410b5ef9349a731c9b76173aecd4a.jpeg');
+      background-size: cover; /* Faz a imagem cobrir toda a tela */
+      background-position: center; /* Centraliza a imagem */
+      background-attachment: fixed; /* Deixa a imagem fixa durante o rolar da página */
 }
 
 .navbar {
