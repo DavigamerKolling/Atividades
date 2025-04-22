@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#game-container {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: #111;
+    border: 2px solid white;
+}
+
+#pacman {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.ghost {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#ghost1 {
+    top: 100px;
+    left: 100px;
+    background-color: blue;
+}
+
+#ghost2 {
+    top: 200px;
+    left: 300px;
+    background-color: green;
+}
+
+#ghost3 {
+    top: 400px;
+    left: 400px;
+    background-color: pink;
+}
+
+#ghost4 {
+    top: 300px;
+    left: 500px;
+    background-color: orange;
+}
